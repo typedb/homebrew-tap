@@ -1,4 +1,4 @@
-# Graknlabs Homebrew Tap
+# Grakn Labs Homebrew Tap
 
 Welcome to Grakn Labs Homebrew Tap. Home to Grakn Core and Grakn Workbase distributions for Mac OSX.
 
