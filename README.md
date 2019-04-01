@@ -1,6 +1,6 @@
 # Graknlabs Homebrew Tap
 
-Welcome to Graknlabs Homebrew Tap. Home to Grakn Core and Grakn Workbase distributions for Mac OSX.
+Welcome to Grakn Labs Homebrew Tap. Home to Grakn Core and Grakn Workbase distributions for Mac OSX.
 
 
 ## Adding The Tap
@@ -12,9 +12,9 @@ $ brew tap graknlabs/tap
 $ brew tap-pin graknlabs/tap
 ```
 
-## Installing Grakn Core
+## Installing [Grakn Core](https://github.com/graknlabs/grakn)
 
-> **NOTE**: If you have an older version of Grakn installed through `homebrew-core`, make sure you first uninstall it.
+> **NOTE**: If you have an older version of Grakn Core installed through `homebrew-core`, make sure you first uninstall it.
 > 
 > ```
 > $ brew uninstall grakn
@@ -26,7 +26,7 @@ $ brew install grakn-core
 ```
 
 
-## Installing Grakn Workbase
+## Installing [Grakn Workbase](https://github.com/graknlabs/workbase)
 
 Grakn Workbase is available via Brew Cask, and can be installed with the following command:
 ```
