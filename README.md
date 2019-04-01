@@ -11,13 +11,13 @@ $ brew tap-pin graknlabs/tap
 
 ## Installing Grakn
 
-**NOTE**: If an older version of grakn from `homebrew-core` is already installed, you will need to uninstall that first
+> **NOTE**: If you have an older version of Grakn installed through `homebrew-core`, make sure you first uninstall it.
+> 
+> ```
+> $ brew uninstall grakn
+> ```
 
-```
-$ brew uninstall grakn
-```
-
-Then, proceed with
+Then, proceed with installing the latest Grakn Core with the following command.
 ```
 $ brew install grakn-core
 ```
@@ -25,7 +25,7 @@ $ brew install grakn-core
 
 ## Installing Workbase
 
-Workbase is available via Brew Cask, and can be installed with the following command:
+Grakn Workbase is available via Brew Cask, and can be installed with the following command:
 ```
 $ brew cask install grakn-workbase
 ```
