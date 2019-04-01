@@ -1,23 +1,31 @@
-# Grakn Homebrew Tap
-This repository contains a collection of Homebrew (aka, Brew) "formulae" for Grakn
+# Graknlabs Homebrew Tap
+This is a Brew formulae repository for Grakn Core and Workbase.
 
-## Installing Grakn
 
+## Adding The Tap
+First of all, tap the repository:
 ```
 $ brew tap graknlabs/tap
 $ brew tap-pin graknlabs/tap
-$ brew install grakn-core
 ```
 
-or alternatively you can refer to formula by its full name
+## Installing Grakn
 
-```
-$ brew install graknlabs/tap/grakn-core
-```
-
-Please note that if an older version of grakn from homebrew-core is being installed, you will need to uninstall that and specifically install the graknlabs/tap version, with:
+**NOTE**: If an older version of grakn from `homebrew-core` is already installed, you will need to uninstall that first
 
 ```
 $ brew uninstall grakn
-$ brew install graknlabs/tap/grakn
+```
+
+Then, proceed with
+```
+$ brew install grakn-core
+```
+
+
+## Installing Workbase
+
+Workbase is available via Brew Cask, and can be installed with the following command:
+```
+$ brew cask install grakn-workbase
 ```
