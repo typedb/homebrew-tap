@@ -1,8 +1,8 @@
 cask 'grakn-workbase' do
-  version '1.2.5'
-  sha256 'f0748e4f4ff014ef14c89d81a98f999ed1d6535f0dcab3c4274718fdc1b8d9d8'
+  version '1.2.6'
+  sha256 'e636b5ff9e116a3fca185deb7133c90e8ed778a6299265552fa60f372cdc6032'
 
-  url "https://github.com/graknlabs/workbase/releases/download/1.2.5/grakn-workbase-mac-1.2.5.dmg"
+  url "https://github.com/graknlabs/workbase/releases/download/1.2.6/grakn-workbase-mac-1.2.6.dmg"
   name 'Grakn Workbase'
   homepage 'https://grakn.ai/'
 
