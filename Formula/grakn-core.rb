@@ -18,8 +18,8 @@
 class GraknCore < Formula
   desc "Grakn Core: The Knowledge Graph"
   homepage "https://grakn.ai"
-  url "https://github.com/graknlabs/grakn/releases/download/2.0.0-alpha-5/grakn-core-all-mac-2.0.0-alpha-5.zip"
-  sha256 "6a55da1fdab91ce04a05a942a4f6fe401df7019c2fdf28698ec6daea4c12752c"
+  url "https://github.com/graknlabs/grakn/releases/download/2.0.0-alpha-6/grakn-core-all-mac-2.0.0-alpha-6.zip"
+  sha256 "342f866e1039f608ca19ddb114dbaf4c876dad6214cb0f357941ff7cc7c14580"
 
   bottle :unneeded
 
