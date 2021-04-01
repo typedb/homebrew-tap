@@ -16,10 +16,10 @@
 #
 
 cask 'grakn-workbase' do
-  version '2.0.0-alpha-3'
-  sha256 'f1585ea355b32ee9fc1f3dcc07904fd3db343033fa30c4d2c352cbecd27b9bfd'
+  version '2.0.0'
+  sha256 '5761fbbba0e89de2a3294f6e02191f12d352f355d040efd1ce6f4c2773bb19b0'
 
-  url "https://github.com/graknlabs/workbase/releases/download/2.0.0-alpha-3/grakn-workbase-mac-2.0.0-alpha-3.dmg"
+  url "https://github.com/graknlabs/workbase/releases/download/2.0.0/grakn-workbase-mac-2.0.0.dmg"
   name 'Grakn Workbase'
   homepage 'https://grakn.ai/'
 
