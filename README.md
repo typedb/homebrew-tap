@@ -1,6 +1,6 @@
-# Grakn Labs Homebrew Tap
+# Vaticle Homebrew Tap
 
-Welcome to Grakn Labs Homebrew Tap. Home to Grakn Core and Grakn Workbase distributions for Mac OSX.
+Welcome to Vaticle Homebrew Tap. Home to TypeDB and TypeDB Workbase distributions for macOS.
 
 
 ## Adding The Tap
@@ -8,27 +8,20 @@ Welcome to Grakn Labs Homebrew Tap. Home to Grakn Core and Grakn Workbase distri
 First of all, add our Homebrew Tap to your local Homebrew installation.
 
 ```
-brew tap graknlabs/tap
-brew tap-pin graknlabs/tap
+brew tap vaticle/tap
 ```
 
-## Installing [Grakn Core](https://github.com/graknlabs/grakn)
+## Installing [TypeDB](https://github.com/vaticle/typedb)
 
-> **NOTE**: If you have an older version of Grakn Core installed through `homebrew-core`, make sure you first uninstall it.
-> 
-> ```
-> brew uninstall grakn
-> ```
-
-Then, proceed with installing the latest Grakn Core with the following command.
+Install the latest TypeDB with the following command.
 ```
-brew install grakn-core
+brew install vaticle/tap/typedb
 ```
 
 
-## Installing [Grakn Workbase](https://github.com/graknlabs/workbase)
+## Installing [TypeDB Workbase](https://github.com/vaticle/typedb-workbase)
 
-Grakn Workbase is available via Brew Cask, and can be installed with the following command:
+TypeDB Workbase is available via Brew Cask, and can be installed with the following command:
 ```
-brew cask install grakn-workbase
+brew cask install vaticle/tap/typedb-workbase
 ```
