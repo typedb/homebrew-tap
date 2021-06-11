@@ -16,10 +16,10 @@
 #
 
 cask 'typedb-workbase' do
-  version '2.1.1'
-  sha256 '589c92667cf34846e96a779f205dc53ae4c550d36d356546010ab4483f0a71b4'
+  version '2.1.2'
+  sha256 '18f0a5f25d67d65ea2a9d5862f775b9b806dbd5a97d8d5e5a9781f3dd53772f8'
 
-  url "https://github.com/vaticle/typedb-workbase/releases/download/2.1.1/typedb-workbase-mac-2.1.1.dmg"
+  url "https://github.com/vaticle/typedb-workbase/releases/download/2.1.2/typedb-workbase-mac-2.1.2.dmg"
   name 'TypeDB Workbase'
   homepage 'https://vaticle.com'
 
