@@ -21,8 +21,6 @@ class GraknCore < Formula
   url "https://github.com/graknlabs/grakn/releases/download/2.0.2/grakn-core-all-mac-2.0.2.zip"
   sha256 "7606ad6951d91b2942ea0e2d3349d636e0b1b54c72e1c888be2616aa99fc70d0"
 
-  bottle :unneeded
-
   depends_on "openjdk@11"
 
   def setup_directory(dir)
