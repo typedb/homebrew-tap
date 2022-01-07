@@ -18,8 +18,8 @@
 class Typedb < Formula
   desc "TypeDB: a strongly-typed database"
   homepage "https://vaticle.com"
-  url "https://github.com/vaticle/typedb/releases/download/2.6.0/typedb-all-mac-2.6.0.zip"
-  sha256 "770ec5c4f543873c8db92fa923902e30d24cd1d991f6ba44eead889361d549a7"
+  url "https://github.com/vaticle/typedb/releases/download/2.6.1/typedb-all-mac-2.6.1.zip"
+  sha256 "462d7a5fb1cedf35feaf559028a60ec047d66ea9871ebfc8f7b8854bf465f852"
 
   depends_on "openjdk@11"
 
