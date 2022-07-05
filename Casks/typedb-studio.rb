@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 Vaticle
+# Copyright (C) 2022 Vaticle
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -16,10 +16,10 @@
 #
 
 cask 'typedb-studio' do
-  version '2.10.0-alpha-10'
-  sha256 'c72da3153e6579e25cbf687b52dda8ba09a07f02ee946bda63775c62b9eac08c'
+  version '2.11.0'
+  sha256 'c724ceab9384a0fa78508e98f4d493c2fd7a0580bbfb490487e7addbafcc13eb'
 
-  url "https://github.com/vaticle/typedb-studio/releases/download/2.10.0-alpha-10/typedb-studio-mac-2.10.0-alpha-10.dmg"
+  url "https://github.com/vaticle/typedb-studio/releases/download/2.11.0/typedb-studio-mac-2.11.0.dmg"
   name 'TypeDB Studio'
   homepage 'https://vaticle.com'
 
