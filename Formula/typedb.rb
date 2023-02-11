@@ -15,27 +15,23 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
+# IMPORTANT: any changes to the formula should be propagated to Homebrew/homebrew-core
 class Typedb < Formula
-  desc "TypeDB: a strongly-typed database"
+  desc "Strongly-typed database with a rich and logical type system"
   homepage "https://vaticle.com"
-  url "https://github.com/vaticle/typedb/releases/download/2.14.3/typedb-all-mac-2.14.3.zip"
-  sha256 "41a574d4d0fafcdfd678599b488dfb3aa7e2c4664e111dbd479bdf0a4dbd12a7"
+  url "https://github.com/vaticle/typedb/releases/download/2.15.0/typedb-all-mac-2.15.0.zip"
+  sha256 "d134d9253431ee105842b34445c8e9f311308cd6e44a20e1105a769654e87539"
+  license "AGPL-3.0-or-later"
 
-  depends_on "openjdk@11"
-
-  def setup_directory(dir)
-    typedb_dir = var / name / dir
-    typedb_dir.mkpath
-    orig_dir = libexec / "server" / dir
-    rm_rf orig_dir
-    ln_s typedb_dir, orig_dir
-  end
+  depends_on "openjdk"
 
   def install
     libexec.install Dir["*"]
-    setup_directory "data"
-    setup_directory "logs"
+    mkdir_p var/"typedb/data"
+    inreplace libexec/"server/conf/config.yml", "server/data", var/"typedb/data"
+    mkdir_p var/"typedb/logs"
+    inreplace libexec/"server/conf/config.yml", "server/logs", var/"typedb/logs"
     bin.install libexec / "typedb"
-    bin.env_script_all_files(libexec, Language::Java.java_home_env("1.11"))
+    bin.env_script_all_files(libexec, Language::Java.java_home_env)
   end
 end
