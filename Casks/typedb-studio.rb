@@ -16,10 +16,10 @@
 #
 
 cask 'typedb-studio' do
-  version '2.21.1'
-  sha256 '9f81ac6003ae293a670c141427f5dd935a28c1bfa5c36e53aa4b38ff6cb0d2f6'
+  version '2.21.2'
+  sha256 '15966d21a0a6cc128467cbca83b18b339414b842e64ff4ab975014268968e459'
 
-  url "https://github.com/vaticle/typedb-studio/releases/download/2.21.1/typedb-studio-mac-2.21.1.dmg"
+  url "https://github.com/vaticle/typedb-studio/releases/download/2.21.2/typedb-studio-mac-2.21.2.dmg"
   name 'TypeDB Studio'
   homepage 'https://vaticle.com'
 
