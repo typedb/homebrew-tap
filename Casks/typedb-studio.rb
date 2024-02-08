@@ -16,16 +16,16 @@
 #
 
 cask 'typedb-studio' do
-  version '2.26.0'
+  version '2.26.6-rc3'
 
   on_arm do
-    url "https://github.com/vaticle/typedb-studio/releases/download/2.26.0/typedb-studio-mac-arm64-2.26.0.dmg"
-    sha256 "d4efd156c60d0b3439ecb49407b0dcdd55fa886c4c6ca62458f8fac97c81182d"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-arm64/versions/2.26.6-rc3/typedb-studio-mac-arm64-2.26.6-rc3.dmg"
+    sha256 "49f60fef43c822b6d2ea97b4f4aafca77d84ebe4e888f27e05d096b545793778"
   end
 
   on_intel do
-    url "https://github.com/vaticle/typedb-studio/releases/download/2.26.0/typedb-studio-mac-x86_64-2.26.0.dmg"
-    sha256 "4a6772ec63e385c3d3120b7e162dfb9452b2b41a8e61d74b50122582c99042a1"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-x86_64/versions/2.26.6-rc3/typedb-studio-mac-x86_64-2.26.6-rc3.dmg"
+    sha256 "f43ace4bf78e76e579cbf9c0a3b26a343f4303846695840448bc14b365a498d7"
   end
 
   name 'TypeDB Studio'
