@@ -16,16 +16,16 @@
 #
 
 cask 'typedb-studio' do
-  version '2.26.6-rc3'
+  version '2.26.6'
 
   on_arm do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-arm64/versions/2.26.6-rc3/typedb-studio-mac-arm64-2.26.6-rc3.dmg"
-    sha256 "49f60fef43c822b6d2ea97b4f4aafca77d84ebe4e888f27e05d096b545793778"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-arm64/versions/2.26.6/typedb-studio-mac-arm64-2.26.6.dmg"
+    sha256 "cd2432588f7cb8e8d38b67d2ba474aa102e431203a6a81bfe845ac25c6f5cc63"
   end
 
   on_intel do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-x86_64/versions/2.26.6-rc3/typedb-studio-mac-x86_64-2.26.6-rc3.dmg"
-    sha256 "f43ace4bf78e76e579cbf9c0a3b26a343f4303846695840448bc14b365a498d7"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-x86_64/versions/2.26.6/typedb-studio-mac-x86_64-2.26.6.dmg"
+    sha256 "1d7f1081476e3b92a8bf3cdebabf3e0003b2009c11915d2453c4daa378789819"
   end
 
   name 'TypeDB Studio'
