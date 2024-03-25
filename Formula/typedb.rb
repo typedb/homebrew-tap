@@ -21,13 +21,13 @@ class Typedb < Formula
   homepage "https://typedb.com"
 
   on_arm do
-    url "https://github.com/vaticle/typedb/releases/download/2.27.0-rc0/typedb-all-mac-arm64-2.27.0-rc0.zip"
-    sha256 "aba3f16b0ba28bd506c43addf3bd9082d1d48150a8421507f32874f3db01f229"
+    url "https://github.com/vaticle/typedb/releases/download/2.27.0/typedb-all-mac-arm64-2.27.0.zip"
+    sha256 "8952df18936960b2705af0f12042edb4a79ea7a309b40c3721065edd651df17b"
   end
 
   on_intel do
-    url "https://github.com/vaticle/typedb/releases/download/2.27.0-rc0/typedb-all-mac-x86_64-2.27.0-rc0.zip"
-    sha256 "2cc2daa3a9f6a1b6f94dcaa1dd24e0c57d3884611db083a77dfc0b2a02a5014b"
+    url "https://github.com/vaticle/typedb/releases/download/2.27.0/typedb-all-mac-x86_64-2.27.0.zip"
+    sha256 "7e40cd4ee3c0bdf5476a0e9d85bd01300867524e2f01867436c78d6d2c9011dd"
   end
 
   license "AGPL-3.0-or-later"
