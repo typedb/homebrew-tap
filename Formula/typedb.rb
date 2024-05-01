@@ -8,13 +8,13 @@ class Typedb < Formula
   homepage "https://typedb.com"
 
   on_arm do
-    url "https://github.com/vaticle/typedb/releases/download/2.28.0-rc0/typedb-all-mac-arm64-2.28.0-rc0.zip"
-    sha256 "3ed65b2daf9fbf56ddc2ef8f04b6542f27af81995e42b2e67c60b16ffb643fdf"
+    url "https://github.com/vaticle/typedb/releases/download/2.28.0/typedb-all-mac-arm64-2.28.0.zip"
+    sha256 "c9d137a05930bf947bf3a2746c8a912ddd82113ff2d0a2bd0c5f586cccec00d2"
   end
 
   on_intel do
-    url "https://github.com/vaticle/typedb/releases/download/2.28.0-rc0/typedb-all-mac-x86_64-2.28.0-rc0.zip"
-    sha256 "015b47b7031f08ef8f3ec782aba5319df1370f6a18ad756c96493fabe3387674"
+    url "https://github.com/vaticle/typedb/releases/download/2.28.0/typedb-all-mac-x86_64-2.28.0.zip"
+    sha256 "ec94042c300cb72bc0781747b02ea860ed00ab2e71b773ac26878a2842a1ff8a"
   end
 
   license "MPL-2.0"
