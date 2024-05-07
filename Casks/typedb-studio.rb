@@ -1,31 +1,18 @@
-#
-# Copyright (C) 2022 Vaticle
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-#
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 cask 'typedb-studio' do
-  version '2.27.0'
+  version '2.28.0'
 
   on_arm do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-arm64/versions/2.27.0/typedb-studio-mac-arm64-2.27.0.dmg"
-    sha256 "719a714be4fbbdecb721218a4fe8d23c08fe3aaa8a033760e4bbd26f1034fe82"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-arm64/versions/2.28.0/typedb-studio-mac-arm64-2.28.0.dmg"
+    sha256 "4c96b26e7b9b76e35d421458c100064a086582cdc18f40633b316e7bdbdce27e"
   end
 
   on_intel do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-x86_64/versions/2.27.0/typedb-studio-mac-x86_64-2.27.0.dmg"
-    sha256 "d17f7ea46dad10eb37a609ecc32a1cec139bd1e7c4fedecc20928f591b116696"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-x86_64/versions/2.28.0/typedb-studio-mac-x86_64-2.28.0.dmg"
+    sha256 "438df7ee13342128bf2531d5dfc924dc747403db4ee2212b3cc7744814cca2cb"
   end
 
   name 'TypeDB Studio'
