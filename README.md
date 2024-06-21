@@ -1,6 +1,6 @@
 # Vaticle Homebrew Tap
 
-Welcome to Vaticle Homebrew Tap. Home to TypeDB and TypeDB Workbase distributions for macOS.
+Welcome to Vaticle Homebrew Tap. Home to TypeDB and TypeDB Studio distributions for macOS.
 
 
 ## Adding The Tap
@@ -19,9 +19,9 @@ brew install vaticle/tap/typedb
 ```
 
 
-## Installing [TypeDB Workbase](https://github.com/vaticle/typedb-workbase)
+## Installing [TypeDB Studio](https://github.com/vaticle/typedb-workbase)
 
-TypeDB Workbase is available via Brew Cask, and can be installed with the following command:
+TypeDB Studio is available via Brew Cask, and can be installed with the following command:
 ```
-brew cask install vaticle/tap/typedb-workbase
+brew install --cask vaticle/tap/typedb-studio
 ```
