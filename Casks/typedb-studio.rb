@@ -3,16 +3,16 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 cask 'typedb-studio' do
-  version '3.0.4'
+  version '3.0.5'
 
   on_arm do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-arm64/versions/3.0.4/typedb-studio-mac-arm64-3.0.4.dmg"
-    sha256 "806945dc093fc67ee54b5a65babc32007b17186c3e7894fb7d1c9cea101ac83e"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-arm64/versions/3.0.5/typedb-studio-mac-arm64-3.0.5.dmg"
+    sha256 "3037e60affb2dae44feb306900395129a889e45dbc722b62cc80b2a2eaffe348"
   end
 
   on_intel do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-x86_64/versions/3.0.4/typedb-studio-mac-x86_64-3.0.4.dmg"
-    sha256 "dbc20fa57f35dfe7b28b8906f2ff9d24cd374d387fce2955d046fa4a31d9095d"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-mac-x86_64/versions/3.0.5/typedb-studio-mac-x86_64-3.0.5.dmg"
+    sha256 "c2de7400d6d037ececcc1ff6631c84dbe3d20568f41e4a247141f1161355075a"
   end
 
   name 'TypeDB Studio'
