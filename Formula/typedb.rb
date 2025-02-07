@@ -8,23 +8,25 @@ class Typedb < Formula
   homepage "https://typedb.com"
 
   on_arm do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-arm64/versions/3.0.5/typedb-all-mac-arm64-3.0.5.zip"
-    sha256 "a363b70ebd1dce6d1c6d0c4e22289e89b64567575596b91ceba5ec57289f8146"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-arm64/versions/3.0.6/typedb-all-mac-arm64-3.0.6.zip"
+    sha256 "9cb5b3713f8d5407ceee26b9f9cd7bf3359b30a6b482ebce6b67d1ae5df42ac2"
   end
 
   on_intel do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-x86_64/versions/3.0.5/typedb-all-mac-x86_64-3.0.5.zip"
-    sha256 "90b4bc4edc7dca60b3668c53cf8982b58eac25d80e48b1f5ee3b5be948366502"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-x86_64/versions/3.0.6/typedb-all-mac-x86_64-3.0.6.zip"
+    sha256 "180ee968ec4abbd9aabb3c3a7a48c133e71beb1999677e6c5c5e5a46bf406f73"
   end
 
   license "MPL-2.0"
 
+  # TODO: Remove when console no longer requires jre
   depends_on "openjdk"
 
 
   def install
     libexec.install Dir["*"]
     bin.install libexec / "typedb"
+    # TODO: Remove when console no longer requires jre
     bin.env_script_all_files(libexec, Language::Java.java_home_env)
   end
 end
