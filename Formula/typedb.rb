@@ -8,13 +8,13 @@ class Typedb < Formula
   homepage "https://typedb.com"
 
   on_arm do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-arm64/versions/3.4.0-rc0/typedb-all-mac-arm64-3.4.0-rc0.zip"
-    sha256 "19a966bc7e7175bc2814cb632e6d006120aa2f3d4eb8771fbe5e15d06ef03216"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-arm64/versions/3.4.0/typedb-all-mac-arm64-3.4.0.zip"
+    sha256 "512b3ddb9bd99eb0d16233fd8d2a18db8d1718d229344bb3083b905b3595b9a6"
   end
 
   on_intel do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-x86_64/versions/3.4.0-rc0/typedb-all-mac-x86_64-3.4.0-rc0.zip"
-    sha256 "551b27cb5494440c08249764dfe3651ae7c606ed367a045d67b98f30adc53d0e"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-x86_64/versions/3.4.0/typedb-all-mac-x86_64-3.4.0.zip"
+    sha256 "a140adfa262e8042b8c48fa638163540ab7bb6688de7d65e86b95624807cf5c0"
   end
 
   license "MPL-2.0"
