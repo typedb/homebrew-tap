@@ -6,15 +6,16 @@
 class Typedb < Formula
   desc "The power of programming, in your database"
   homepage "https://typedb.com"
+  version "3.12.2"
 
   on_arm do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-arm64/versions/3.12.1/typedb-all-mac-arm64-3.12.1.zip"
-    sha256 "0e146d069473223d5d2523cdf0e889738f73cd2ae8d532bdf611d2f200ae6c9f"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-arm64/versions/3.12.2/typedb-all-mac-arm64-3.12.2.zip"
+    sha256 "26000ab7652fc6f84264669518e2769390ac6a02ef3e55da3fc169d5ff3be479"
   end
 
   on_intel do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-x86_64/versions/3.12.1/typedb-all-mac-x86_64-3.12.1.zip"
-    sha256 "ed0e49f69386514e0b5647c7292a6734cacef211b6c671c38842ff2a2fb16777"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-x86_64/versions/3.12.2/typedb-all-mac-x86_64-3.12.2.zip"
+    sha256 "2044381bfbf6a3e18248c56518a7a646d7b5f5df3aed9d9ecf2e28e65f4e2499"
   end
 
   license "MPL-2.0"
@@ -22,5 +23,10 @@ class Typedb < Formula
   def install
     libexec.install Dir["*"]
     bin.install_symlink libexec / "typedb"
+    mkdir_p var/"typedb/data"
+    inreplace libexec/"server/config.yml", "data-directory: \"data\"", "data-directory: \"#{var}/typedb/data\""
+    mkdir_p var/"typedb/logs"
+    inreplace libexec/"server/config.yml", "directory: \"logs\"", "directory: \"#{var}/typedb/logs\""
   end
+
 end
