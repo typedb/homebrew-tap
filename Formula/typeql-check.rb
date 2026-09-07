@@ -7,13 +7,13 @@ class TypeqlCheck < Formula
   homepage "https://typedb.com"
 
   on_arm do
-    url "https://repo.typedb.com/public/public-release/raw/names/typeql-check-mac-arm64/versions/3.13.0-rc0/typeql-check-mac-arm64-3.13.0-rc0.zip"
-    sha256 "04492f034e06ab986bf3601a5ec6a314c03b4bf868a5330d0041ff69be215de0"
+    url "https://repo.typedb.com/public/public-release/raw/names/typeql-check-mac-arm64/versions/3.13.0/typeql-check-mac-arm64-3.13.0.zip"
+    sha256 "8b617cce21f7f504baf3e9934ae14b40700d8f9d8253fd82ba5790c97a148b7c"
   end
 
   on_intel do
-    url "https://repo.typedb.com/public/public-release/raw/names/typeql-check-mac-x86_64/versions/3.13.0-rc0/typeql-check-mac-x86_64-3.13.0-rc0.zip"
-    sha256 "a58060f2bfd72d0307e7e7ef554ecf54de69b3bafca0934465ae165f873f3b98"
+    url "https://repo.typedb.com/public/public-release/raw/names/typeql-check-mac-x86_64/versions/3.13.0/typeql-check-mac-x86_64-3.13.0.zip"
+    sha256 "83322c6009f89847a538c79dc77dfa5186882ec203001523e7f14d34108e843e"
   end
 
   license "MPL-2.0"
