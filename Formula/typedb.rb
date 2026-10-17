@@ -6,16 +6,16 @@
 class Typedb < Formula
   desc "The power of programming, in your database"
   homepage "https://typedb.com"
-  version "3.14.0-rc0"
+  version "3.14.0-rc1"
 
   on_arm do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-arm64/versions/3.14.0-rc0/typedb-all-mac-arm64-3.14.0-rc0.zip"
-    sha256 "64c67cbd167255717c42484bc77cf7e55d5b3acaa73d69c5300f5af58e058f95"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-arm64/versions/3.14.0-rc1/typedb-all-mac-arm64-3.14.0-rc1.zip"
+    sha256 "b3610c4c74796766afc26d4ef76647f0152de5959de0b791093ce3ceb231f074"
   end
 
   on_intel do
-    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-x86_64/versions/3.14.0-rc0/typedb-all-mac-x86_64-3.14.0-rc0.zip"
-    sha256 "e0406dffadcd2942f2bc313aa6d2771695f10902bc859fd6c7b1af4a64c7941a"
+    url "https://repo.typedb.com/public/public-release/raw/names/typedb-all-mac-x86_64/versions/3.14.0-rc1/typedb-all-mac-x86_64-3.14.0-rc1.zip"
+    sha256 "8abd6e2c024dff86ad026391343e0417568fed7c800b69fdc7994a2d23ec5bc6"
   end
 
   license "MPL-2.0"
